@@ -1,0 +1,32 @@
+import time
+
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+
+driver = webdriver.Chrome()
+
+
+driver.get("https://rahulshettyacademy.com/angularpractice/")
+
+print (driver.title)
+# maximizing the windows
+driver.maximize_window()
+
+driver.find_element(By.NAME,"name").send_keys("shubham tripathi")
+driver.find_element(By.NAME,"email").send_keys("abc@gmail.com")
+driver.find_element(By.ID,"exampleInputPassword1").send_keys("1234567")
+driver.find_element(By.ID,"exampleCheck1").click()
+driver.find_element(By.XPATH,"//input[@value='Submit']").click()
+
+
+
+
+
+
+
+
+time.sleep(5)
+driver.close()
+
+
+
