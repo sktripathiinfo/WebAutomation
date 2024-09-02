@@ -2,3 +2,5 @@
 2024-09-02 23:51:30,636 :WARNING : pytestsDemo.test_logging : Something is in warning mode
 2024-09-02 23:51:30,636 :ERROR : pytestsDemo.test_logging : A major error has happened
 2024-09-02 23:51:30,636 :CRITICAL : pytestsDemo.test_logging : Critical issue occurred 
+2024-09-03 00:33:47,772 :INFO : WebAutomation.pytestsDemo.BaseClass : Shubham
+2024-09-03 00:33:47,773 :INFO : WebAutomation.pytestsDemo.BaseClass : tripathi
